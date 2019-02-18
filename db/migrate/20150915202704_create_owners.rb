@@ -1,4 +1,4 @@
-class CreateOwners < ActiveRecord::Migration
+class CreateOwners < ActiveRecord::Base
   def up
     create_table :owners do |t|
       t.string :name
